@@ -1,0 +1,494 @@
+{
+    "combined": {
+        "Customer Interaction": {
+            "promoters": [
+                1223000,
+                5
+            ],
+            "passives": [
+                1470000,
+                3
+            ],
+            "detractors": [
+                1791000,
+                1
+            ],
+            "total": [
+                4484000,
+                9
+            ]
+        },
+        "Pricing": {
+            "promoters": [
+                2111000,
+                4
+            ],
+            "passives": [
+                1285000,
+                3
+            ],
+            "detractors": [
+                1088000,
+                2
+            ],
+            "total": [
+                4484000,
+                9
+            ]
+        },
+        "Product Quality": {
+            "promoters": [
+                2641000,
+                2
+            ],
+            "passives": [
+                1145000,
+                4
+            ],
+            "detractors": [
+                698000,
+                3
+            ],
+            "total": [
+                4484000,
+                9
+            ]
+        }
+    },
+    "breakdown": {
+        "Customer Interaction": [
+            [
+                498000,
+                "EzProject",
+                7,
+                "2020-6-1"
+            ],
+            [
+                456000,
+                "DevVision",
+                1,
+                "2020-6-1"
+            ],
+            [
+                437000,
+                "Desimple",
+                9,
+                "2020-6-1"
+            ],
+            [
+                407000,
+                "SeekStar",
+                1,
+                "2020-6-1"
+            ],
+            [
+                391000,
+                "Bliss Project",
+                8,
+                "2020-6-1"
+            ],
+            [
+                391000,
+                "Upproject",
+                10,
+                "2020-6-1"
+            ],
+            [
+                370000,
+                "PlotPact",
+                7,
+                "2020-6-1"
+            ],
+            [
+                345000,
+                "DevFun",
+                9,
+                "2020-6-1"
+            ],
+            [
+                291000,
+                "LinkBulb",
+                1,
+                "2020-6-1"
+            ],
+            [
+                231000,
+                "DevBook",
+                5,
+                "2020-6-1"
+            ],
+            [
+                211000,
+                "Desimple",
+                8,
+                "2020-6-1"
+            ],
+            [
+                206000,
+                "ConceptChart",
+                4,
+                "2020-6-1"
+            ],
+            [
+                200000,
+                "",
+                1,
+                "2020-6-1"
+            ],
+            [
+                50000,
+                "DuckyDev",
+                10,
+                "2020-6-2"
+            ]
+        ],
+        "Pricing": [
+            [
+                498000,
+                "EzProject",
+                7,
+                "2020-6-1"
+            ],
+            [
+                456000,
+                "DevVision",
+                9,
+                "2020-6-1"
+            ],
+            [
+                437000,
+                "Desimple",
+                9,
+                "2020-6-1"
+            ],
+            [
+                407000,
+                "SeekStar",
+                9,
+                "2020-6-1"
+            ],
+            [
+                391000,
+                "Bliss Project",
+                9,
+                "2020-6-1"
+            ],
+            [
+                391000,
+                "Upproject",
+                6,
+                "2020-6-1"
+            ],
+            [
+                370000,
+                "PlotPact",
+                10,
+                "2020-6-1"
+            ],
+            [
+                345000,
+                "DevFun",
+                7,
+                "2020-6-1"
+            ],
+            [
+                291000,
+                "LinkBulb",
+                1,
+                "2020-6-1"
+            ],
+            [
+                231000,
+                "DevBook",
+                7,
+                "2020-6-1"
+            ],
+            [
+                211000,
+                "Desimple",
+                8,
+                "2020-6-1"
+            ],
+            [
+                206000,
+                "ConceptChart",
+                3,
+                "2020-6-1"
+            ],
+            [
+                200000,
+                "",
+                3,
+                "2020-6-1"
+            ],
+            [
+                50000,
+                "DuckyDev",
+                10,
+                "2020-6-2"
+            ]
+        ],
+        "Product Quality": [
+            [
+                498000,
+                "EzProject",
+                6,
+                "2020-6-1"
+            ],
+            [
+                456000,
+                "DevVision",
+                9,
+                "2020-6-1"
+            ],
+            [
+                437000,
+                "Desimple",
+                8,
+                "2020-6-1"
+            ],
+            [
+                407000,
+                "SeekStar",
+                10,
+                "2020-6-1"
+            ],
+            [
+                391000,
+                "Bliss Project",
+                10,
+                "2020-6-1"
+            ],
+            [
+                391000,
+                "Upproject",
+                10,
+                "2020-6-1"
+            ],
+            [
+                370000,
+                "PlotPact",
+                9,
+                "2020-6-1"
+            ],
+            [
+                345000,
+                "DevFun",
+                10,
+                "2020-6-1"
+            ],
+            [
+                291000,
+                "LinkBulb",
+                7,
+                "2020-6-1"
+            ],
+            [
+                231000,
+                "DevBook",
+                9,
+                "2020-6-1"
+            ],
+            [
+                211000,
+                "Desimple",
+                7,
+                "2020-6-1"
+            ],
+            [
+                206000,
+                "ConceptChart",
+                8,
+                "2020-6-1"
+            ],
+            [
+                200000,
+                "",
+                4,
+                "2020-6-1"
+            ],
+            [
+                50000,
+                "DuckyDev",
+                10,
+                "2020-6-2"
+            ]
+        ]
+    },
+    "history": {
+        "Customer Interaction": {
+            "Mon Jun 01 2020 19:29:17 GMT+0100 (British Summer Time)": [
+                -100,
+                25
+            ],
+            "Mon Jun 01 2020 19:29:50 GMT+0100 (British Summer Time)": [
+                -100,
+                25
+            ],
+            "Mon Jun 01 2020 19:30:19 GMT+0100 (British Summer Time)": [
+                -100,
+                25
+            ],
+            "Mon Jun 01 2020 19:43:25 GMT+0100 (British Summer Time)": [
+                -59,
+                25
+            ],
+            "Mon Jun 01 2020 19:44:07 GMT+0100 (British Summer Time)": [
+                -51,
+                25
+            ],
+            "Mon Jun 01 2020 19:44:27 GMT+0100 (British Summer Time)": [
+                -16,
+                25
+            ],
+            "Mon Jun 01 2020 19:45:03 GMT+0100 (British Summer Time)": [
+                -13,
+                25
+            ],
+            "Mon Jun 01 2020 19:45:41 GMT+0100 (British Summer Time)": [
+                2,
+                25
+            ],
+            "Mon Jun 01 2020 19:46:15 GMT+0100 (British Summer Time)": [
+                15,
+                25
+            ],
+            "Mon Jun 01 2020 19:47:12 GMT+0100 (British Summer Time)": [
+                13,
+                25
+            ],
+            "Mon Jun 01 2020 19:47:57 GMT+0100 (British Summer Time)": [
+                1,
+                25
+            ],
+            "Mon Jun 01 2020 19:48:36 GMT+0100 (British Summer Time)": [
+                -10,
+                25
+            ],
+            "Mon Jun 01 2020 20:38:24 GMT-0700 (Pacific Daylight Time)": [
+                -14,
+                25
+            ],
+            "Tue Jun 02 2020 19:21:25 GMT+0100 (British Summer Time)": [
+                -13,
+                45
+            ]
+        },
+        "Pricing": {
+            "Mon Jun 01 2020 19:29:17 GMT+0100 (British Summer Time)": [
+                -100,
+                25
+            ],
+            "Mon Jun 01 2020 19:29:50 GMT+0100 (British Summer Time)": [
+                -100,
+                25
+            ],
+            "Mon Jun 01 2020 19:30:19 GMT+0100 (British Summer Time)": [
+                -68,
+                25
+            ],
+            "Mon Jun 01 2020 19:43:25 GMT+0100 (British Summer Time)": [
+                -41,
+                25
+            ],
+            "Mon Jun 01 2020 19:44:07 GMT+0100 (British Summer Time)": [
+                -35,
+                25
+            ],
+            "Mon Jun 01 2020 19:44:27 GMT+0100 (British Summer Time)": [
+                -4,
+                25
+            ],
+            "Mon Jun 01 2020 19:45:03 GMT+0100 (British Summer Time)": [
+                14,
+                25
+            ],
+            "Mon Jun 01 2020 19:45:41 GMT+0100 (British Summer Time)": [
+                12,
+                25
+            ],
+            "Mon Jun 01 2020 19:46:15 GMT+0100 (British Summer Time)": [
+                -3,
+                25
+            ],
+            "Mon Jun 01 2020 19:47:12 GMT+0100 (British Summer Time)": [
+                10,
+                25
+            ],
+            "Mon Jun 01 2020 19:47:57 GMT+0100 (British Summer Time)": [
+                18,
+                25
+            ],
+            "Mon Jun 01 2020 19:48:36 GMT+0100 (British Summer Time)": [
+                28,
+                25
+            ],
+            "Mon Jun 01 2020 20:38:24 GMT-0700 (Pacific Daylight Time)": [
+                21,
+                25
+            ],
+            "Tue Jun 02 2020 19:21:25 GMT+0100 (British Summer Time)": [
+                23,
+                22
+            ]
+        },
+        "Product Quality": {
+            "Mon Jun 01 2020 19:29:17 GMT+0100 (British Summer Time)": [
+                0,
+                25
+            ],
+            "Mon Jun 01 2020 19:29:50 GMT+0100 (British Summer Time)": [
+                0,
+                25
+            ],
+            "Mon Jun 01 2020 19:30:19 GMT+0100 (British Summer Time)": [
+                32,
+                25
+            ],
+            "Mon Jun 01 2020 19:43:25 GMT+0100 (British Summer Time)": [
+                -22,
+                25
+            ],
+            "Mon Jun 01 2020 19:44:07 GMT+0100 (British Summer Time)": [
+                -19,
+                25
+            ],
+            "Mon Jun 01 2020 19:44:27 GMT+0100 (British Summer Time)": [
+                -15,
+                25
+            ],
+            "Mon Jun 01 2020 19:45:03 GMT+0100 (British Summer Time)": [
+                5,
+                25
+            ],
+            "Mon Jun 01 2020 19:45:41 GMT+0100 (British Summer Time)": [
+                18,
+                25
+            ],
+            "Mon Jun 01 2020 19:46:15 GMT+0100 (British Summer Time)": [
+                28,
+                25
+            ],
+            "Mon Jun 01 2020 19:47:12 GMT+0100 (British Summer Time)": [
+                36,
+                25
+            ],
+            "Mon Jun 01 2020 19:47:57 GMT+0100 (British Summer Time)": [
+                44,
+                25
+            ],
+            "Mon Jun 01 2020 19:48:36 GMT+0100 (British Summer Time)": [
+                49,
+                25
+            ],
+            "Mon Jun 01 2020 20:38:24 GMT-0700 (Pacific Daylight Time)": [
+                42,
+                25
+            ],
+            "Tue Jun 02 2020 19:21:25 GMT+0100 (British Summer Time)": [
+                43,
+                -11
+            ]
+        }
+    }
+}

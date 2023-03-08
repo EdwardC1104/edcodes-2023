@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: linear-gradient(to right,
+            #4333A1 0%,
+            #4333A1 50%,
+            #F9F9F9 50%,
+            #F9F9F9 100%);
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas: "left main right";
+}
+
+.left {
+    grid-area: left;
+    max-height: 100vh;
+    background-color: #4333A1;
+    padding: 20px;
+}
+
+.main {
+    grid-area: main;
+    height: calc(100vh - 60px);
+    background-color: #F9F9F9;
+    border-radius: 20px 0px 0px 20px;
+    -webkit-box-shadow: -4px 5px 6px 0px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: -4px 5px 6px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: -4px 5px 6px 0px rgba(0, 0, 0, 0.25);
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px 20px;
+    grid-template-areas: "performance performance""split profit";
+}
+
+.right {
+    grid-area: right;
+    height: calc(100vh - 40px);
+    background-color: #FFFFFF;
+    border-radius: 20px 0px 0px 20px;
+    -webkit-box-shadow: -4px 5px 6px 0px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: -4px 5px 6px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: -4px 5px 6px 0px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.value {
+    top: 20px;
+}
+
+.cash {
+    bottom: 20px;
+}
+
+.menu {
+    padding-top: calc(15vh + 40px)
+}
+
+.value, .cash {
+    width: calc(25vw - 60px);
+    background-color: #5042A6;
+    box-shadow: inset -4px 5px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    position: absolute;
+    margin: auto;
+    height: 18vh;
+    left: calc(25vw - (25vw - 30px))
+}
+
+.value .content, .cash .content {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: center;
+    width: 100%;
+}
+
+h2 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 75px;
+    color: #FFFFFF;
+}
+
+h3 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 42px;
+    color: #FFFFFF;
+    padding-top: 10px;
+}
+
+.menu img {
+    height: 1.3rem;
+    padding-right: 0.6rem;
+    display: inline-block;
+}
+
+.menu span {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+.menu div {
+    padding-top: 15px;
+}
+
+.performance {
+    grid-area: performance;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    -webkit-box-shadow: -4px 5px 6px 0px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: -4px 5px 6px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: -4px 5px 6px 0px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+    max-height: calc(50vh - 90px);
+}
+
+#line-chart {
+    width: 100%;
+}
+
+.main h3, .right h3 {
+    color: #000000;
+}
+
+.split {
+    grid-area: split;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    -webkit-box-shadow: -4px 5px 6px 0px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: -4px 5px 6px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: -4px 5px 6px 0px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+    max-width: calc(25vw - 80px);
+    max-height: calc(50vh - 70px);
+}
+
+.profit {
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    -webkit-box-shadow: -4px 5px 6px 0px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: -4px 5px 6px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: -4px 5px 6px 0px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+    max-width: calc(25vw - 80px);
+}
+
+#doughnut-chart {
+    width: 100%;
+}
+
+#bar-chart {
+    width: 100%;
+}
+
+.item-container {
+    background-color: rgb(222, 242, 252);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+    -webkit-box-shadow: -4px 5px 6px 0px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: -4px 5px 6px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: -4px 5px 6px 0px rgba(0, 0, 0, 0.25);
+    min-width: calc(25vw - 95px);
+}
+
+.item-container select {
+    background-color: white;
+    border: 3px solid rgb(195, 231, 253);
+    border-radius: 3px;
+    font-size: 16px;
+    padding: 3px;
+    width: 45px;
+}
+
+.item-container input[type="number"] {
+    width: 50px;
+}
+
+.item-container input {
+    background-color: white;
+    border: 3px solid rgb(195, 231, 253);
+    border-radius: 3px;
+    font-size: 16px;
+    padding: 3px;
+}
+
+.item-container button {
+    border-radius: 3px;
+    font-size: 20px;
+    text-weight: bold;
+}
+
+button.green {
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(146, 208, 80);
+}
+
+button.green:hover {
+    background-color: rgb(146, 208, 80);
+    color: white;
+}
+
+button.red {
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid red;
+}
+
+button.red:hover {
+    background-color: red;
+    color: white;
+}
+
+.buttons {
+    float: right;
+}
+
+select {
+    width: 40px;
+}
+
+.save {
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+    border-radius: 3px;
+}
+
+.save:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+#timeline {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.center {
+    text-align: center;
+}

@@ -1,0 +1,190 @@
+/* || STYLESHEET - main.css */
+
+/* || Fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap');
+
+/* || General Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0e1628;
+}
+
+h1, h2 {
+  font-family: 'Bebas Neue', cursive;
+  color: #c9d3d6;
+  letter-spacing: 0.075em;
+}
+
+h2 {
+  font-size: 10vw;
+  text-align: center;
+}
+
+p.text {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 25px;
+  color: #c9d3d6;
+  margin: auto;
+}
+
+.title {
+  color: #f5a002;
+  font-size: 30px;
+  font-family: Monospace;
+  margin-left: 30px;
+}
+
+h2.subtitle {
+  font-size: 7vw;
+}
+
+p > a {
+  color: inherit;
+}
+
+@media (min-device-width: 597px) {
+  .left-text {
+    margin-left: 30px!important;
+  }
+}
+
+@media (min-device-width: 597px) and (max-device-width: 812px) {
+  .right-text {
+    margin-left: 30px!important;
+  }
+}
+
+.always-left-text {
+  margin-left: 30px!important;
+}
+
+/* || Flexbox */
+
+.flex-container1 {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: transparent;
+  margin: auto;
+}
+
+.flex-container1 > div {
+  background-color: transparent;
+}
+
+.flex-container1 > #flex1 {
+  width: calc(60% - 20px);
+  font-size: 20px;
+}
+
+.flex-container1 > #flex2 {
+  width: calc(40% - 20px);
+  text-align: center;
+  margin: auto;
+}
+
+.vertical-center {
+  margin: 0;
+  display: table-cell!important;
+  vertical-align: middle;
+}
+
+@media (max-device-width: 812px) {
+
+  .flex-container1 > #flex1 {
+    width: 100%;
+    order: 1;
+  }
+
+  .vertical-center {
+    margin-top: 100px!important;
+  }
+
+  .flex-container1 > #flex2 {
+    width: 100%;
+  }
+}
+
+/* || Animation */
+
+.big-text {
+  font-size: 20vw;
+}
+
+#hello {
+  left:0;
+  right:0;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  color: #c9d3d6;
+}
+
+.animation1 {
+  font-size: 1em;
+  text-align: center;
+  margin-bottom: 20vw;
+}
+
+#flash {
+  animation: blinker 1s step-end infinite;
+}
+
+@keyframes blinker {
+
+  from, to {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+}
+
+
+
+/* || Code Examples */
+
+pre, code {
+  font-family: monospace, monospace;
+  font-size: 20px;
+  display: block;
+  padding: 1rem;
+  word-wrap: normal;
+  white-space: pre-wrap!important;       /* css-3 */
+  white-space: -moz-pre-wrap!important;  /* Mozilla, since 1999 */
+  white-space: -pre-wrap!important;      /* Opera 4-6 */
+  white-space: -o-pre-wrap!important;    /* Opera 7 */
+  word-wrap: break-word!important;       /* Internet Explorer 5.5+ */
+}
+
+pre {
+  margin: 30px !important;
+  -webkit-box-shadow: 3px 3px 24px 0px rgba(0,0,0,0.64);
+  -moz-box-shadow: 3px 3px 24px 0px rgba(0,0,0,0.64);
+  box-shadow: 3px 3px 24px 0px rgba(0,0,0,0.64);
+  overflow-wrap: break-word;
+}
+
+.language-python {
+  direction: ltr;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  -moz-tab-size: 4; -o-tab-size: 4; tab-size: 4;
+  -webkit-hyphens: none; -moz-hyphens: none; -ms-hyphens: none; hyphens: none;
+  overflow-wrap: break-word;
+  overflow: hidden;
+}
+
+
